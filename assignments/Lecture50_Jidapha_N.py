@@ -1,10 +1,10 @@
-def addNumber(x,y): #paramiter ใส่กี่อันก็ได้
+def addNumber(x,y): 
     print(f'{x}+{y} = {x+y}')
 def minus(x,y):
     print(f'{x}-{y} = {x-y}')
-def multiply(x,y): #paramiter ใส่กี่อันก็ได้
+def multiply(x,y): 
     print(f'{x}*{y} = {x*y}')
-def divide(x,y): #paramiter ใส่กี่อันก็ได้
+def divide(x,y): 
     print(f'{x}/{y} = {x/y :.2f}')
 
 x = int(input('x = '))
